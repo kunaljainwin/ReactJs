@@ -6,7 +6,7 @@ function Banner() {
 const[movie,setMovie]=useState([]);
     useEffect(() => {
       async function fetchData(){
-          const req = await axios.get(requests.fetchHorrorMovies);
+          const req = await axios.get(requests.fetchComedyMovies);
           setMovie(req.data.results[Math.floor(Math.random()*20)])
           return req;
       }

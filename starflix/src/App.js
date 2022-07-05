@@ -14,9 +14,9 @@ function App() {
         <Row title="Trending this week"fetchUrl={requests.fetchTrending}/>
         <Row title="Trending TV shows"fetchUrl={requests.fetchTvShows}/>
       
-        <Row title="Action movies"fetchUrl={requests.fetchActionMovies}/>
-        <Row title="Comedy movies"fetchUrl={requests.fetchComedyMovies}/>
-        <Row title="Documentaries"fetchUrl={requests.fetchDocumantaries}/>
+        {/* <Row title="Action movies"fetchUrl={requests.fetchActionMovies}/> */}
+        {/* <Row title="Comedy movies"fetchUrl={requests.fetchComedyMovies}/>
+        <Row title="Documentaries"fetchUrl={requests.fetchDocumantaries}/> */}
         {/* <Row title="Trending Now"fetchUrl={requests.fetchTrending}/>
         <Row title="Trending Now"fetchUrl={requests.fetchTrending}/>
         <Row title="Trending Now"fetchUrl={requests.fetchTrending}/>
